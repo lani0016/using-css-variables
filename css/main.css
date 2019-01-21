@@ -1,5 +1,5 @@
 :root {
-  --colour-primary: #f39;
+  --color-primary: #f39;
   --border-radius:14px 14px 0;
   --font-primary: sans-serif;
   --font-secondary: "Roboto Slab", sans-serif;
@@ -11,17 +11,17 @@ html {
 
 .card {
   max-width: 24em;
-  border: 3px solid var(--colour-primary);
+  border: 3px solid var(--color-primary);
   border-radius: var(--border-radius);
 }
 
 .card-title {
-  color: var(--colour-primary);
+  color: var(--color-primary);
   font-family: var(--font-secondary);
 }
 
 .btn {
-  background-color: var(--colour-primary);
-  border-color: var(--colour-primary);
+  background-color: var(--color-primary);
+  border-color: var(--color-primary);
   border-radius: var(--border-radius);  font-family: var(--font-secondary);
 }
